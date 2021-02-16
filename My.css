@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to left, #fa4706, #8df317);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.banner-text {
+    width: 100%;
+    color: white;
+    position:absolute;
+}
+.banner-text ul{
+    margin-top: 0%;
+    height: 50px;
+    color: white;
+    float: right;
+}
+.banner-text :hover{color: dodgerblue;}
+.banner-text ul li{
+    display: inline-block;
+    padding: 40px 15px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+.banner-text {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 20%;
+ }
+.animation-area{
+     background: linear-gradient(to left, #fa4706, #8df317);
+     width: 100%;
+     height: 100vh;
+}
+.box-area{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box-area li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: rgba(56, 2, 253, 0.26);
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+}
+.box-area li:nth-child(1){
+    left: 1%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+.box-area li:nth-child(2){
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.5s;
+}
+.box-area li:nth-child(3){
+    left: 70%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 3s;
+}
+.box-area li:nth-child(4){
+    left: 100%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+}
+.box-area li:nth-child(5){
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 5.5s;
+}
+.box-area li:nth-child(6){
+    left: 70%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 0.5s;
+}
+.box-area li:nth-child(7){
+    left: 10%;
+    width: 100px;
+    height: 100px;
+    animation-delay: -2s;
+}
+.box-area li:nth-child(8){
+    left: 30%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1s;
+}
+.box-area li:nth-child(9){
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 8s;
+}
+.box-area li:nth-child(10){
+    left: 70%;
+    width: 79px;
+    height: 79px;
+    animation-delay: 10s;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 100;
+    }
+    100%{
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 100;
+    }
+
+}
+#paragraph{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-weight: 80;
+    color: white;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    letter-spacing: 40%;
+    font-size: 3vh;
+
+}
